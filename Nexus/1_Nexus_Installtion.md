@@ -51,6 +51,11 @@ sudo systemctl enable nexus
 
 #Start the nexus service
 sudo systemctl start nexus
+
+#status:
+systemctl status nexus
+
+
 ```
 * Access the Nexus server from at `http://IPAddress/Hostname:8081/`
 
