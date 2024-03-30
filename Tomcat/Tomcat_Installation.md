@@ -62,7 +62,7 @@ ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stopTomcat
 ```bash
 cd /opt/tomcat9/webapps/manager/META-INF
 vi context.xml
-# comment the below line 
+# comment the below line because this line says allow only local hose
  <!--
   <Valve className="org.apache.catalina.valves.RemoteAddrValve"
          allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1" />
