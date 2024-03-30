@@ -21,7 +21,7 @@ java -version
 * Visit here to [download](https://tomcat.apache.org/download-90.cgi) the distributions.
 ```bash
 # download zip fole for tomcat 9
-wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.76/bin/apache-tomcat-9.0.76.zip
+wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.87/bin/apache-tomcat-9.0.87.zip
 
 # Install unzip 
 yum install unzip -y
