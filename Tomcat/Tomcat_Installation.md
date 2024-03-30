@@ -47,6 +47,8 @@ sh shutdown.sh
 
 
 # To start/stop the tomcat from anywhere in machine create a link using the below command 
+#/usr/bin/startTomcat: This is the destination path for the symbolic link. By creating this link, you're allowing users to execute startTomcat from anywhere in the system to start Tomcat.
+
 ln -s /opt/tomcat9/bin/startup.sh /usr/bin/startTomcat
 ln -s /opt/tomcat9/bin/shutdown.sh /usr/bin/stopTomcat
 
