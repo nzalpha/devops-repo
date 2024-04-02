@@ -5,7 +5,7 @@ gcloud compute instances create sonarqube  --zone=us-west4-b --machine-type=e2-m
 ```
 
 ## Install Openjdk 17, mvn 3.8.8 on Centos:
-## If you have multiple version of java: sudo update-java-alternatives --list gives the other installations & to consider this java version sudo update-java-alternatives --set openjdk-11
+## If you have multiple version of java: sudo update-java-alternatives --list gives the other installations & to consider this java version sudo update-java-alternatives --set java-1.11.0-openjdk-amd64( based on soft link present in usr/lib/jvm)
 ```bash
 # https://techviewleo.com/install-java-openjdk-on-rocky-linux-centos/
 # Install Openjdk 17
