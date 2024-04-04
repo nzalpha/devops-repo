@@ -1,3 +1,8 @@
+##Java Installations:
+* apt list --installed "*jdk*" . gives list of jdk installed
+* List the available Java installations along with their respective alternative names: sudo update-java-alternatives --list or sudo update-alternatives --config java
+* Choose the desired Java version you want to switch to and note its alternative name. Let's say you want to switch to Java 11 and its alternative name is java-1.11.0-openjdk-amd64. sudo update-java-alternatives --set java-1.11.0-openjdk-amd64
+
 ## Install Java ON Windows:
 * JDK is needed for maven, so install jdk
 * [Refer Here](https://www.java.com/en/download/manual.jsp)
